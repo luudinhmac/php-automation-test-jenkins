@@ -10,10 +10,10 @@ class StaffTest extends TestCase
 
         $staff = new Staff;
 
-        $staff->first_name = "Nguyen";
-        $staff->last_name = "Bao";
+        $staff->first_name = "Luu";
+        $staff->last_name = "Mac";
 
-        $this->assertEquals('Nguyen Bao', $staff->getFullName());
+        $this->assertEquals('Luu Mac', $staff->getFullName());
     }
     public function testFullNameIsEmptyByDefault()
     {
@@ -27,7 +27,7 @@ class StaffTest extends TestCase
     public function only_first_name()
     {
         $staff = new Staff;
-        $staff->first_name = "Nguyen";
-        $this->assertEquals('Nguyen', $staff->getFullName());
+        $staff->first_name = "Mac";
+        $this->assertEquals('MAc', $staff->getFullName());
     }
 }
