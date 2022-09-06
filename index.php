@@ -1,3 +1,3 @@
 <?php
-echo "Xin chao\n";
+echo "Xin chao jenkins\n";
 ?>
