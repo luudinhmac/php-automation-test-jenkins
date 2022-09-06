@@ -28,6 +28,6 @@ class StaffTest extends TestCase
     {
         $staff = new Staff;
         $staff->first_name = "Luu";
-        $this->assertEquals('Luu', $staff->getFullName());
+        $this->assertEquals('L uu', $staff->getFullName());
     }
 }
